@@ -1,1 +1,49 @@
-theme: jekyll-theme-slate
+
+# Site settings
+title: Feng Feng
+name: Feng Feng
+email: fengfeng@gatech.edu
+baseurl: ""
+url: "https://gnefgnef.github.io/"
+github_username: gnefGNEF
+disqus_baseurl: "https://gnefgnef.github.io/"
+disqus_shortname: https-gnefgnef-github-io
+permalink: :title
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Feng Feng"
+
+
+
+# External gems
+gems:
+  - jekyll-paginate
+  - jemoji
+  - jekyll-seo-tag
+
+
+
+social:
+  - name: GitHub
+    icon: github
+    username: gnefGNEF
+    url: https://github.com/gnefGNEF
+    desc: Fork me on GitHub
+    share: false
+
+  - name: LinkedIn
+    icon: linkedin
+    username: Feng Feng
+    url: https://www.linkedin.com/in/fengfeng-gatech/
+    desc: Connect with me on LinkedIn
+    share: true
